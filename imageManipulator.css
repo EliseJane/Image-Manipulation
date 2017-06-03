@@ -1,0 +1,59 @@
+main {
+	margin: 0 auto;
+	width: 800px;
+	background: #dbdbdb;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+main:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.starting {
+	float: left;
+	width: 48%;
+	overflow: hidden;
+}
+
+.starting img {
+	height: auto;
+	width: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+
+.manipulated {
+	float: right;
+	width: 48%;
+}
+
+h2 {
+	text-align: center;
+	font: bold 24px sans-serif;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+button {
+	background: #0ebeef;
+	color: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: none;
+}
+
+button:hover {
+	cursor: pointer;
+	color: black;
+}
